@@ -1,0 +1,125 @@
+h1{
+
+    text-align: center;
+    
+}
+
+/* Atividade 1*/
+
+.container-template-atividade{
+
+    display: grid;
+    width: 70vw;
+    gap: 6px;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "it1 it1 it2"
+    ". . it2";
+
+}
+
+.container-template-atividade div {
+    padding: 10px 0 0 10px;
+    border-radius: 6px;
+    background-color: rgb(77, 77, 250);
+    color: white;
+}
+
+.container-template-atividade .item1{
+
+    grid-area: it1;
+
+}
+
+.container-template-atividade .item2{
+
+    grid-area: it2;
+
+}
+
+/* Atividade 2 :)*/
+
+.container-template-atividade-2{
+
+    display: grid;
+    width: 70vw;
+    gap: 6px;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "it1 it1 it1"
+    ". it3 it3"
+    ". it3 it3"
+    ". it3 it3"
+    ". . it8"
+    ". . it8";  
+
+}
+
+.container-template-atividade-2 div {
+    padding: 10px 0 0 10px;
+    border-radius: 6px;
+    background-color: rgb(77, 77, 250);
+    color: white;
+}
+
+.container-template-atividade-2 .item1{
+
+    grid-area: it1;
+
+}
+
+.container-template-atividade-2 .item3{
+
+    grid-area: it3;
+
+}
+
+.container-template-atividade-2 .item8{
+
+    grid-area: it8;
+
+}
+
+/* Atividade 3 :I*/
+
+.container-template-atividade-3{
+
+    display: grid;
+    width: 70vw;
+    gap: 6px;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    ". . it7 ."
+    ". . it7 ."
+    ". . it7 ."
+    "it5 it5 it7 .";  
+
+}
+
+.container-template-atividade-3 div{
+    padding: 10px 0 0 10px;
+    border-radius: 6px;
+    background-color: rgb(77, 77, 250);
+    color: white;
+}
+
+.container-template-atividade-3 .item7{
+
+    grid-area: it7;
+    background-color: green;
+
+}
+
+.container-template-atividade-3 .item5{
+
+    grid-area: it5;
+    background-color: red;
+
+}
+
+
+
+
